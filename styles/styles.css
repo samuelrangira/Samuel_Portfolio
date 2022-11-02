@@ -562,10 +562,14 @@ section {
 .contact-content-con .left-contact .contact-info .contact-item {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
 }
 .contact-content-con .left-contact .contact-info .contact-item p {
-  margin: 0.3rem 0 !important;
+  margin: 0.7rem 0 !important;
+  padding: 0 !important;
+}
+.contact-content-con .left-contact .contact-info .contact-item p span #education {
+  margin-right: 0.9rem !important;
   padding: 0 !important;
 }
 .contact-content-con .left-contact .contact-info .contact-item .icon {
@@ -693,6 +697,9 @@ section {
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: 700;
+}
+.main-title h3 {
+  font-weight: 200;
 }
 .main-title h2 span {
   color: var(--color-secondary);
